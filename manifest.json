@@ -1,0 +1,28 @@
+{
+    "name": "Consentium",
+    "new_install_prompt_erase": true,
+    "funding_url": "https://paypal.me/consentium",
+    "new_install_improv_wait_time": 10,
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "improv": true,
+            "parts": [
+                {
+                    "path": "https://example.com/firmware/consentium32.factory.bin",
+                    "offset": 0
+                }
+            ]
+        },
+        {
+            "chipFamily": "ESP8266",
+            "improv": true,
+            "parts": [
+                {
+                    "path": "https://example.com/firmware/consentium.bin",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}
