@@ -1,7 +1,7 @@
 {
     "name": "Consentium",
     "new_install_prompt_erase": true,
-    "funding_url": "https://paypal.me/consentium",
+    "funding_url": "https://consentium.online",
     "new_install_improv_wait_time": 10,
     "builds": [
         {
@@ -9,7 +9,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://example.com/firmware/consentium32.factory.bin",
+                    "path": "https://github.com/MISTERNEGATIVE21/consentium-esp-tools/raw/main/firmware/esp32/firmware.bin",
                     "offset": 0
                 }
             ]
